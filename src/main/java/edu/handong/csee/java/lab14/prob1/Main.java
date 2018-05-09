@@ -1,12 +1,12 @@
-package edu.handong.csee.java.lab14.prob1;
+package edu.handong.csee.java.lab14.prob1; //the file is in this package
 
-public class Main {
+public class Main { //declare public type Main class
 
-	public static void main(String[] args) {
+	public static void main(String[] args) { //declare main method
 		
-		SpeedLimitter sl = new SpeedLimitter();
-		sl.warnSpeedLimit();
-		sl.printSpeed();
+		SpeedLimitter sl = new SpeedLimitter(); //make instance
+		sl.warnSpeedLimit(); //execute warnSpeedlimit method
+		sl.printSpeed(); //execute printsSpeed method
 
 	}
 
